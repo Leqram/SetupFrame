@@ -71,6 +71,7 @@ def SetupFrame():
     with open("format.json", "w") as json_file:
         json.dump(data, json_file, indent=3)
 
+
     # for x, y in zip(transparent_pixels[1], transparent_pixels[0]):
     #     cv2.rectangle(image, (x, y), (x, y), (102, 255, 255), 2) 
     new_dimensi = (int(dimensi[0] / 4), int(dimensi[1] / 4))
